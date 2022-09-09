@@ -1,0 +1,63 @@
+* {
+    box-sizing: ;
+}
+
+
+body {
+    font-family: Arial;
+    Margin: 0;
+}
+
+
+.header {
+    padding: flex;
+    background-color: blue;
+}
+
+.navbar a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: pink;
+    color: blue;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side{
+    flex: 20%;
+    background-color: pink;
+    padding: 20px;
+}
+
+.main {
+    flex: 80%;
+    background-color: yellow;
+    padding: 20px;
+}
+
+.faking {
+
+    width: 100%;
+    padding: 20%;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: red;
+}
+
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+
+}
